@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-import dj_database_url  # Add this for PostgreSQL support
+import dj_database_url  # type: ignore # Add this for PostgreSQL support
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
